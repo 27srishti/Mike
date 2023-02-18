@@ -77,50 +77,50 @@ const Navbar = () => {
         <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
           <a
             href="#"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             Home
           </a>
           <a
             href="#"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             All Products
           </a>
           <a
             href="#"
-            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             {" "}
             Terms Of sale
           </a>
           <a
             href="#"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             Shipping Policy
           </a>
           <a
             href="#"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             About Us
           </a>{" "}
           <a
             href="#"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             Contact Us
           </a>{" "}
           <a
             href="#"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             FAQ's
           </a>
           <a
             href="#"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-lime-500 mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
           >
             Netletter
           </a>

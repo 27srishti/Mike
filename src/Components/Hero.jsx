@@ -10,17 +10,17 @@ const Hero = () => {
 
       <aside
         id="separator-sidebar"
-        className=" z-40  hidden   lg:flex lg:block transition-transform -translate-x-full sm:translate-x-0"
+        className=" z-40  hidden cursor-pointer  lg:flex lg:block transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
         <div className="h-screen w-54 px-3 py-4  overflow-y-auto bg-gray-50 ">
-          <ul className="space-y-2">
+          <ul className="space-y-2 hover:text-green-400 cursor-pointer">
             <li>
               <a
                 href="#"
                 className="flex text-center items-center p-2 text-base font-normal text-gray-900 rounded-lg  hover:bg-gray-100 d"
               >
-                <span className=" w-full h-9 border-gray-400 border-b">
+                <span className=" w-full h-9 hover:font-semibold text-lime-600 border-gray-400 border-b">
                   Search By Make
                 </span>
               </a>
@@ -30,7 +30,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600 border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   APC
                   <option>APC</option>
                   <option>Automatic Transfer Switch</option>
@@ -46,7 +46,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1  px-3 p-0 m-0 border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1  px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Arista
                   <option> Arista</option>
                   <option>7048</option>
@@ -78,7 +78,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Aruba
                   <option> Aruba</option>
                   <option> 2530</option>
@@ -105,7 +105,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Brocade
                   <option>Brocade</option>
                   <option>300 SAN Switch</option>
@@ -136,7 +136,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Cisco
                   <option>Cisco </option>
                   <option>Catalyst Switches</option>
@@ -160,7 +160,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Cisco Meraki
                   <option>Meraki Firewalls</option>
                   <option>Meraki Switches</option>
@@ -173,7 +173,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Dell
                   <option>Dell</option>
                   <option>PowerSwitch</option>
@@ -192,7 +192,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Extreme
                   <option>Extreme</option>
                   <option>X430</option>
@@ -231,7 +231,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   HPE
                   <option>HPE</option>
                   <option>HPE Switches</option>
@@ -245,7 +245,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Intel
                   <option>Intel</option>
                   <option>Xeon E3 V3</option>
@@ -265,7 +265,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Juniper
                   <option>Juniper</option>
                   <option>E Series</option>
@@ -288,7 +288,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <a className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <a className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Palo Alto
                 </a>
               </a>
@@ -298,7 +298,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   Ruckus
                   <option>Ruckus</option>
                   <option>ICX6430</option>
@@ -319,7 +319,7 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
                   SonicWALL
                   <option>SonicWALL</option>
                   <option>NSA</option>
@@ -337,25 +337,27 @@ const Hero = () => {
                 href="#"
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
-                
-                      <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
-                        Other
-                        <option>Other</option>
-                        <option>Allied Telesis</option>
-                        <option>Avaya Switches</option>
-                        <option>Cyclades</option>
-                        <option>Dialogic</option>
-                        <option>Enterasys</option>
-                        <option>Finisar</option>
-                        <option>F5</option>
-                        <option>IBM</option>
-                        <option>Supermicro</option>
-                        <option>Tripp Lite</option>
-                      </select>
-                    </a>
-                  </li>
-               <a className="flex items-center text-sm font-normal text-gray-500 rounded-lg">
-                <a className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">Consulting Services</a></a>
+                <select className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                  Other
+                  <option>Other</option>
+                  <option>Allied Telesis</option>
+                  <option>Avaya Switches</option>
+                  <option>Cyclades</option>
+                  <option>Dialogic</option>
+                  <option>Enterasys</option>
+                  <option>Finisar</option>
+                  <option>F5</option>
+                  <option>IBM</option>
+                  <option>Supermicro</option>
+                  <option>Tripp Lite</option>
+                </select>
+              </a>
+            </li>
+            <a className="flex items-center text-sm font-normal text-gray-500 rounded-lg">
+              <a className="flex-1 px-3 p-0 m-0 hover:font-semibold hover:text-lime-600  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                Consulting Services
+              </a>
+            </a>
           </ul>
         </div>
       </aside>

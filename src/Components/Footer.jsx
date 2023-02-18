@@ -123,12 +123,12 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">About Us</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-gray-900">About Us</p>
               <nav aria-label="Footer About Nav" className="mt-8">
-                <ul className="space-y-4 text-sm">
+                <ul className="space-y-4  text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 hover:text-lime-600 transition hover:text-gray-700/75"
                       href="/"
                     >
                       Our Team
@@ -136,7 +136,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Our Story
@@ -144,7 +144,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                      Contact Us
@@ -155,12 +155,12 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Information</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-gray-900">Information</p>
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Terms Of Sale
@@ -169,7 +169,7 @@ const Footer = () => {
                  
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                      Shipping Policy
@@ -177,7 +177,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Privacy Policy
@@ -185,7 +185,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                     Terms Of Use
@@ -194,7 +194,7 @@ const Footer = () => {
                   
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Do Not Sell Personal Information
@@ -204,12 +204,12 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Helpful Links</p>
+              <p className="text-lg font-medium text-gray-900 hover:font-semibold hover:text-lime-600 ">Helpful Links</p>
               <nav aria-label="Footer Helpful Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       FAQs
@@ -217,7 +217,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Support
@@ -225,7 +225,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
                       href="/"
                     >
                       Cookie Policy
@@ -233,10 +233,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="group flex justify-center gap-1.5 sm:justify-start"
+                      className="group flex justify-center hover:text-lime-600 gap-1.5 sm:justify-start"
                       href="/"
                     >
-                      <span className="text-gray-700 transition group-hover:text-gray-700/75">
+                      <span className="text-gray-700 hover:text-lime-600 transition group-hover:text-gray-700/75">
                         Live Chat
                       </span>
                       <span className="relative -mr-2 flex h-2 w-2">
@@ -249,7 +249,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900">Our Location</p>
+              <p className="text-lg font-medium text-gray-900 hover:font-semibold hover:text-lime-600 ">Our Location</p>
               <ul className="mt-8 space-y-4 text-sm">
                 
                 
@@ -274,7 +274,7 @@ const Footer = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <address className="-mt-0.5 not-italic text-gray-700">
+                  <address className="-mt-0.5 hover:text-lime-600 not-italic text-gray-700">
                     NetworkTigers, Inc 
                     <br/>
                     1029 S. Claremont St.
@@ -290,7 +290,7 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-400 pt-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <p className="text-sm text-gray-500">
-              <span className="block sm:inline">All rights reserved.</span>
+              <span className="block sm:inline hover:text-lime-600">All rights reserved.</span>
               <a
                 className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
                 href="/"
@@ -305,7 +305,7 @@ const Footer = () => {
                 Privacy Policy
               </a>
             </p>
-            <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0  ">
+            <p className="mt-4  hover:text-lime-600 text-sm text-gray-500 sm:order-first sm:mt-0  ">
               © 2023 NetworkTigers, Inc. 
               <span className="  ">TM</span>
             </p>
