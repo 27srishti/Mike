@@ -266,25 +266,96 @@ const Hero = () => {
                 className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
               >
                 <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
-                Juniper
-                Juniper
-                E Series
-EX Switches
-
-M Edge Routers
-MX Routers
-Pulse
-QFX Switches
-
-PTX Routers
-SRX Gateways
-SSG Gateways
-STRM
-T Core Routers
-Transceivers
+                  Juniper
+                  <option>Juniper</option>
+                  <option>E Series</option>
+                  <option>EX Switches</option>
+                  <option>M Edge Routers</option>
+                  <option>MX Routers</option>
+                  <option>Pulse</option>
+                  <option>QFX Switches</option>
+                  <option>PTX Routers</option>
+                  <option>SRX Gateways</option>
+                  <option>SSG Gateways</option>
+                  <option>STRM</option>
+                  <option>T Core Routers</option>
+                  <option>Transceivers</option>
                 </select>
               </a>
             </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
+              >
+                <a className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                  Palo Alto
+                </a>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
+              >
+                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                  Ruckus
+                  <option>Ruckus</option>
+                  <option>ICX6430</option>
+                  <option>ICX6450</option>
+                  <option>ICX6610</option>
+                  <option>ICX7150</option>
+                  <option>ICX7250</option>
+                  <option>ICX7450</option>
+                  <option>ICX7650</option>
+                  <option>ICX7750</option>
+                  <option>ICX7850</option>
+                  <option>Ruckus Wireless</option>
+                </select>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
+              >
+                <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                  SonicWALL
+                  <option>SonicWALL</option>
+                  <option>NSA</option>
+                  <option>SuperMassive</option>
+                  <option>TZ SOHO</option>
+                  <option>SonicPoint</option>
+                  <option>Secure Remote Access</option>
+                  <option>Rack Mount Brackets</option>
+                  <option>Transceivers</option>
+                </select>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center text-sm font-normal text-gray-500 rounded-lg"
+              >
+                
+                      <select className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">
+                        Other
+                        <option>Other</option>
+                        <option>Allied Telesis</option>
+                        <option>Avaya Switches</option>
+                        <option>Cyclades</option>
+                        <option>Dialogic</option>
+                        <option>Enterasys</option>
+                        <option>Finisar</option>
+                        <option>F5</option>
+                        <option>IBM</option>
+                        <option>Supermicro</option>
+                        <option>Tripp Lite</option>
+                      </select>
+                    </a>
+                  </li>
+               <a className="flex items-center text-sm font-normal text-gray-500 rounded-lg">
+                <a className="flex-1 px-3 p-0 m-0  border-none focus:ring-0 bg-gray-50 border-0 whitespace-nowrap">Consulting Services</a></a>
           </ul>
         </div>
       </aside>
