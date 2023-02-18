@@ -2,11 +2,11 @@ import React from "react";
 import Logo from "../Images/Logo.png";
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 ">
+    <footer className="bg-gray-200 flex justify-center  ">
       <div className="mx-auto max-w-screen-xl px-4 pt-10 pb-6 sm:px-6 lg:px-8 lg:pt-10">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <div className="w-60 ">
+            <div className="w-60  ">
               <img src={Logo}></img>
             </div>
             <p className="mx-auto md:font-semibold md:text-lg mt-6 max-w-md text-center leading-relaxed text-lime-600 sm:mx-0 sm:max-w-xs sm:text-left">
@@ -236,12 +236,12 @@ const Footer = () => {
                       className="group flex justify-center hover:text-lime-600 gap-1.5 sm:justify-start"
                       href="/"
                     >
-                      <span className="text-gray-700 hover:text-lime-600 transition group-hover:text-gray-700/75">
+                      <span className="text-gray-700 hover:text-lime-600 transition ">
                         Live Chat
                       </span>
                       <span className="relative -mr-2 flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75" />
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500" />
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-lime-900 opacity-75" />
+                        <span className="relative inline-flex h-2 w-2 rounded-full bg-lime-500" />
                       </span>
                     </a>
                   </li>
