@@ -15,7 +15,7 @@ const Footer = () => {
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <a
-                  href="/"
+                  href="https://www.facebook.com/networktigers"
                   rel="noreferrer"
                   target="_blank"
                   className="text-lime-700 transition hover:text-lime-700/75"
@@ -59,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="https://twitter.com/networktigers"
                   rel="noreferrer"
                   target="_blank"
                   className="text-lime-700 transition hover:text-lime-700/75"
@@ -129,7 +129,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 hover:text-lime-600 transition hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/about-us"
                     >
                       Our Team
                     </a>
@@ -137,7 +137,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/about-us"
                     >
                       Our Story
                     </a>
@@ -145,7 +145,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/contact-us"
                     >
                      Contact Us
                     </a>
@@ -161,7 +161,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/terms-of-sale"
                     >
                       Terms Of Sale
                     </a>
@@ -170,7 +170,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/terms-of-shipping"
                     >
                      Shipping Policy
                     </a>
@@ -178,7 +178,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/privacy-policy"
                     >
                       Privacy Policy
                     </a>
@@ -186,7 +186,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/terms-of-use"
                     >
                     Terms Of Use
                     </a>
@@ -195,7 +195,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/ccpa-opt-out"
                     >
                       Do Not Sell Personal Information
                     </a>
@@ -210,7 +210,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/faq"
                     >
                       FAQs
                     </a>
@@ -218,7 +218,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/contact-us"
                     >
                       Support
                     </a>
@@ -226,7 +226,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.networktigers.com/pages/cookie-policy"
                     >
                       Cookie Policy
                     </a>
@@ -234,7 +234,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="group flex justify-center hover:text-lime-600 gap-1.5 sm:justify-start"
-                      href="/"
+                      href="https://www.networktigers.com/"
                     >
                       <span className="text-gray-700 hover:text-lime-600 transition ">
                         Live Chat
@@ -274,6 +274,7 @@ const Footer = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
+                  <a href="https://www.networktigers.com/pages/contact-us">
                   <address className="-mt-0.5 hover:text-lime-600 not-italic text-gray-700">
                     NetworkTigers, Inc 
                     <br/>
@@ -281,7 +282,7 @@ const Footer = () => {
                     <br/>
                     San Mateo, Ca 94402
                     
-                  </address>
+                  </address></a>
                 </li>
               </ul>
             </div>

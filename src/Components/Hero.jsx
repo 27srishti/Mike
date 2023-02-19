@@ -364,7 +364,7 @@ const Hero = () => {
       {/* --------------------------Hero Section------------------------------------------------------ */}
 
       <div className="">
-        <section className="img-slider overflow-hidden max-h-[25rem] md:max-h-[100rem] ">
+        <section className="img-slider overflow-hidden max-h-[25rem]   md:max-h-[100rem] ">
           <div className="slider-container  h-[25rem] md:h-auto rounded-lg  ">
             <div className="slide">
               <img src="https://images.pexels.com/photos/3251700/pexels-photo-3251700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
