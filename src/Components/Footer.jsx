@@ -290,18 +290,18 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-gray-400 pt-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
-            <p className="text-sm text-gray-500">
-              <span className="block sm:inline hover:text-lime-600">All rights reserved.</span>
+            <p  className="text-sm text-gray-500">
+              <span  className="block sm:inline hover:text-lime-600">All rights reserved.</span>
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                href="/"
+                className="inline-block text-lime-600 underline transition hover:text-lime-600/75"
+                href="https://www.networktigers.com/pages/ccpa-opt-out"
               >
                 Terms &amp; Conditions
               </a>
               <span>·</span>
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-                href="/"
+                className="inline-block text-lime-600 underline transition hover:text-lime-600/75"
+                href="https://www.networktigers.com/pages/privacy-policy"
               >
                 Privacy Policy
               </a>
