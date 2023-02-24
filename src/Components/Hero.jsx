@@ -380,58 +380,15 @@ const Hero = () => {
 
       {/* --------------------------Hero Section------------------------------------------------------ */}
 
-      {/* <div className="">
-        <section className="img-slider overflow-hidden max-h-[25rem]   md:max-h-[100rem] ">
-          <div className="slider-container  h-[25rem] md:h-auto rounded-lg  ">
-            <div className="slide  ">
-              <div className=" mt-[20%] md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
-                <div class="relative  flex md:w-[36rem]  items-center">
-                  <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-green"></div>
-                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
-                    Networks are Everywhere
-                  </span>
-                  <div class="flex-grow  mt-1 border-t border-[3px] border-green"></div>
-                </div>
+      
 
-                <h1 className="mt-4  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
-                  {" "}
-                  NetworkTigers Support Network Managers Across All Networks
-                  <span className="text-green ">
-                    {" "}
-                    With Quality Switches, Routers, Firewalls And PDU's.
-                  </span>
-                  <div className="mt-5 ">
-                    <a
-                      href="https://www.networktigers.com/pages/all-products"
-                      className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-green  w-28 text-sm text-white  px-3 py-3 rounded-md"
-                    >
-                      Explore More
-                    </a>
-                  </div>
-                </h1>
-              </div>
-
-              <h1 className=" text-white   w-screen bg-gray-400 py-2 text-xs text-center ">
-                Since 1996, NetworkTigers has been providing quality to Netowrk
-                Managers around the world.
-              </h1>
-
-              <img src="https://img.freepik.com/free-photo/beautiful-cloudscape-sunset-evening-dawn_53876-16471.jpg?w=1380&t=st=1677230495~exp=1677231095~hmac=6443cc49d9b0b49beca3e7023d6c2b0757ddd8ade129a197a919abb0ed01a0ee"></img>
-             
-            </div>
-            
-            </div>
-          </div>
-        </section>
-      </div> */}
-
-      <div className="   ">
+      
         <div className="slide  ">
           <div className=" mt-[20%]  md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
             <div class="relative  flex md:w-[36rem]  items-center">
               <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-green"></div>
               <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
-                Networks are Everywhere
+                Networks Are Everywhere
               </span>
               <div class="flex-grow  mt-1 border-t border-[3px] border-green"></div>
             </div>
@@ -465,7 +422,7 @@ const Hero = () => {
           src={images[currentIndex]}
         />
       </div>
-    </div>
+    
   );
 };
 
