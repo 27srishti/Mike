@@ -368,40 +368,94 @@ const Hero = () => {
         <section className="img-slider overflow-hidden max-h-[25rem]   md:max-h-[100rem] ">
           <div className="slider-container  h-[25rem] md:h-auto rounded-lg  ">
             <div className="slide ">
-              <div className=" mt-[10%]  w-[90%] pl-[10%]  absolute my-auto mx-auto ">
-                {/* <h5 className="ml-10  md:ml-20 text-md    mx-auto  text-white  md:text-2xl ">
-                  {" "}
-                  Networks Are Everywhere
-                </h5>
-                   */}
-                <div class="relative  flex  items-center">
-                  <div class=" w-5 md:w-10 border-t border-2 border-lime-400"></div>
-                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">Networks Are Everywhere</span>
-                  <div class="flex-grow  border-t border-2 border-lime-400"></div>
+              <div className=" mt-[20%] md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+                <div class="relative  flex md:w-[36rem]  items-center">
+                  <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-lime-400"></div>
+                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
+                    Networks are Everywhere
+                  </span>
+                  <div class="flex-grow  mt-1 border-t border-[3px] border-lime-400"></div>
                 </div>
 
-                <h1 className="mt-2  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
+                <h1 className="mt-4  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
                   {" "}
                   NetworkTigers Support Network Managers Across All Networks
-                  <span className="text-lie-400 ">
+                  <span className="text-lime-400 ">
                     {" "}
                     With Quality Switches, Routers, Firewalls And PDU's.
                   </span>
-                  <div className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md">
-                    Explore More
+                  <div className="mt-5 ">
+                    <a
+                      href="https://www.networktigers.com/pages/all-products"
+                      className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md"
+                    >
+                      Explore More
+                    </a>
                   </div>
                 </h1>
               </div>
 
-              <img src="https://c4.wallpaperflare.com/wallpaper/765/992/4/road-in-black-and-white-wallpaper-preview.jpg"></img>
+              <img src="https://img.freepik.com/free-photo/beautiful-cloudscape-sunset-evening-dawn_53876-16471.jpg?w=1380&t=st=1677230495~exp=1677231095~hmac=6443cc49d9b0b49beca3e7023d6c2b0757ddd8ade129a197a919abb0ed01a0ee"></img>
               {/* <img src={One} /> */}
             </div>
             <div className="slide">
-              <img src="https://images.pexels.com/photos/3780664/pexels-photo-3780664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+              <div className=" mt-[20%] md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+                <div class="relative  flex md:w-[36rem]  items-center">
+                  <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-lime-400"></div>
+                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
+                    Networks are Everywhere
+                  </span>
+                  <div class="flex-grow  mt-1 border-t border-[3px] border-lime-400"></div>
+                </div>
+
+                <h1 className="mt-4  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
+                  {" "}
+                  NetworkTigers Support Network Managers Across All Networks
+                  <span className="text-lime-400 ">
+                    {" "}
+                    With Quality Switches, Routers, Firewalls And PDU's.
+                  </span>
+                  <div className="mt-5 ">
+                    <a
+                      href="https://www.networktigers.com/pages/all-products"
+                      className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md"
+                    >
+                      Explore More
+                    </a>
+                  </div>
+                </h1>
+              </div>
+              <img src="https://c1.wallpaperflare.com/preview/430/884/964/tunnel-dark-passage.jpg"></img>
               {/* <img src={Two}/> */}
             </div>
             <div className="slide">
-              <img src="https://images.pexels.com/photos/747079/pexels-photo-747079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+              <div className=" mt-[20%] md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+                <div class="relative  flex md:w-[36rem]  items-center">
+                  <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-lime-400"></div>
+                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
+                    Networks are Everywhere
+                  </span>
+                  <div class="flex-grow  mt-1 border-t border-[3px] border-lime-400"></div>
+                </div>
+
+                <h1 className="mt-4  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
+                  {" "}
+                  NetworkTigers Support Network Managers Across All Networks
+                  <span className="text-lime-400 ">
+                    {" "}
+                    With Quality Switches, Routers, Firewalls And PDU's.
+                  </span>
+                  <div className="mt-5 ">
+                    <a
+                      href="https://www.networktigers.com/pages/all-products"
+                      className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md"
+                    >
+                      Explore More
+                    </a>
+                  </div>
+                </h1>
+              </div>
+              <img src="https://img.freepik.com/free-photo/beautiful-shot-small-house-water-with-trees-background-black-white_181624-5147.jpg?w=900&t=st=1677230414~exp=1677231014~hmac=c657a2c98f06f2c92947f73f0e3795954aec45dc63bcc2e4c03c62ce1a22fcad"></img>
               {/* <img src={Three} /> */}
             </div>
           </div>
