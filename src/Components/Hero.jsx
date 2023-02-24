@@ -16,7 +16,7 @@ const Hero = () => {
       } else {
         setCurrentIndex(currentIndex + 1);
       }
-    }, 4000);
+    }, 10000);
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
@@ -425,8 +425,45 @@ const Hero = () => {
         </section>
       </div> */}
 
-      <div className="   "> 
-        <img className= " w-screen h-[25rem] md:h-screen" src={images[currentIndex]} />
+      <div className="   ">
+        <div className="slide  ">
+          <div className=" mt-[20%]  md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+            <div class="relative  flex md:w-[36rem]  items-center">
+              <div class=" w-5 mt-1 md:w-10 border-t border-[3px] border-lime-400"></div>
+              <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">
+                Networks are Everywhere
+              </span>
+              <div class="flex-grow  mt-1 border-t border-[3px] border-lime-400"></div>
+            </div>
+
+            <h1 className="mt-4  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
+              {" "}
+              NetworkTigers Support Network Managers Across All Networks
+              <span className="text-lime-400 ">
+                {" "}
+                With Quality Switches, Routers, Firewalls And PDU's.
+              </span>
+              <div className="mt-5 ">
+                <a
+                  href="https://www.networktigers.com/pages/all-products"
+                  className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md"
+                >
+                  Explore More
+                </a>
+              </div>
+            </h1>
+            {/* <h1 className=" text-white   w-screen bg-gray-400 py-2 text-xs text-center ">
+            Since 1996, NetworkTigers has been providing quality to Netowrk
+            Managers around the world.
+          </h1> */}
+          </div>
+
+         
+        </div>
+        <img
+          className=" w-screen h-[25rem] md:h-screen"
+          src={images[currentIndex]}
+        />
       </div>
     </div>
   );

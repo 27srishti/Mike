@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,42 +17,3 @@ code {
 @tailwind utilities;
 
 
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.img-slider {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-.img-slider .slider-container {
-    position: absolute;
-    width: 300%;
-    top: 0;
-    left: 0;
-   
-    animation: slider 50s infinite;
-}
-.img-slider .slider-container .slide {
-    position: relative;
-    width: 33.33333333%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-}
-.img-slider .slider-container .slide img {
-  display: block;
-  width: 100%;
-  height: 100%
-}
-@keyframes slider  {
-    10%, 25%, 100%{left: 0 }
-    
-    40%, 55%{left: -100%}
-    
-    70%, 85%{left: -200%}
-} */
