@@ -16,7 +16,8 @@ code {
 @tailwind utilities;
 
 
-* {
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -53,4 +54,4 @@ code {
     40%, 55%{left: -100%}
     
     70%, 85%{left: -200%}
-}
+} */
