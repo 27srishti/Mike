@@ -123,7 +123,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-gray-900">About Us</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-lime-600">About Us</p>
               <nav aria-label="Footer About Nav" className="mt-8">
                 <ul className="space-y-4  text-sm">
                   <li>
@@ -155,7 +155,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-gray-900">Information</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-lime-600">Information</p>
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
@@ -204,7 +204,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900 hover:font-semibold hover:text-lime-600 ">Helpful Links</p>
+              <p className="text-lg font-medium text-lime-600 hover:font-semibold hover:text-lime-600 ">Helpful Links</p>
               <nav aria-label="Footer Helpful Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
@@ -249,7 +249,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-gray-900 hover:font-semibold hover:text-lime-600 ">Our Location</p>
+              <p className="text-lg font-medium text-lime-600 hover:font-semibold hover:text-lime-600 ">Our Location</p>
               <ul className="mt-8 space-y-4 text-sm">
                 
                 
@@ -257,7 +257,7 @@ const Footer = () => {
                 <li className="flex items-start justify-center gap-1.5 sm:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 shrink-0 text-gray-900"
+                    className="h-5 w-5 shrink-0 text-lime-600"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

@@ -18,7 +18,7 @@ const Hero = () => {
             <li>
               <a
                 href="#"
-                className="flex text-center items-center p-2 text-base font-normal text-gray-900 rounded-lg  hover:bg-gray-100 d"
+                className="flex text-center items-center p-2 text-base font-normal text-lime-600 rounded-lg  hover:bg-gray-100 d"
               >
                 <span className=" w-full h-9 hover:font-semibold text-lime-600 border-gray-400 border-b">
                   Search By Make
@@ -361,13 +361,39 @@ const Hero = () => {
           </ul>
         </div>
       </aside>
+
       {/* --------------------------Hero Section------------------------------------------------------ */}
 
       <div className="">
         <section className="img-slider overflow-hidden max-h-[25rem]   md:max-h-[100rem] ">
           <div className="slider-container  h-[25rem] md:h-auto rounded-lg  ">
-            <div className="slide">
-              <img src="https://images.pexels.com/photos/3251700/pexels-photo-3251700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+            <div className="slide ">
+              <div className=" mt-[10%]  w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+                {/* <h5 className="ml-10  md:ml-20 text-md    mx-auto  text-white  md:text-2xl ">
+                  {" "}
+                  Networks Are Everywhere
+                </h5>
+                   */}
+                <div class="relative  flex  items-center">
+                  <div class=" w-5 md:w-10 border-t border-2 border-lime-400"></div>
+                  <span class="flex-shrink px-1 text-md    mx-auto  text-white  md:text-2xl">Networks Are Everywhere</span>
+                  <div class="flex-grow  border-t border-2 border-lime-400"></div>
+                </div>
+
+                <h1 className="mt-2  md:w-[42rem]  text-xl  font-semibold absolute  mx-auto  text-white  md:text-2xl ">
+                  {" "}
+                  NetworkTigers Support Network Managers Across All Networks
+                  <span className="text-lie-400 ">
+                    {" "}
+                    With Quality Switches, Routers, Firewalls And PDU's.
+                  </span>
+                  <div className=" text-center mt-5    cursor-pointer font-semibold hover:text-black  bg-lime-600  w-28 text-sm text-white  px-3 py-3 rounded-md">
+                    Explore More
+                  </div>
+                </h1>
+              </div>
+
+              <img src="https://c4.wallpaperflare.com/wallpaper/765/992/4/road-in-black-and-white-wallpaper-preview.jpg"></img>
               {/* <img src={One} /> */}
             </div>
             <div className="slide">

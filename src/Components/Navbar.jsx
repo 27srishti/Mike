@@ -34,7 +34,7 @@ const Navbar = () => {
         </ui>
       </div>
       {/* -----------------------------------TopNav-End---------------------------------------------------------- */}
-      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900  w-full z-20  border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-lime-600  w-full z-20  border-b border-gray-200 dark:border-gray-600">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a
             href="https://www.networktigers.com/"
@@ -58,7 +58,7 @@ const Navbar = () => {
               ></img>
             </a>
           </div>
-          <div className=" md:w-full flex justify-between  h-[100%] hidden max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-[0.5px] border-gray-900 border-opacity-50 rounded-sm  xl:flex items-center">
+          <div className=" md:w-full flex justify-between  h-[100%] hidden max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-[0.5px] border-lime-600 border-opacity-50 rounded-sm  xl:flex items-center">
             <input
               className=" border-none focus:ring-0 w-full border-none font-normal text-sm pl-6"
               type="text"
@@ -92,50 +92,50 @@ const Navbar = () => {
         <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
           <a
             href="#"
-            className="border-b-2 border-transparent  hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent  hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             Home
           </a>
           <a
             href="https://www.networktigers.com/pages/all-products"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             All Products
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-sale"
-            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             {" "}
             Terms Of sale
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-shipping"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             Shipping Policy
           </a>
           <a
             href="https://www.networktigers.com/pages/about-us"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             About Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/contact-us"
-            className="border-b-2 border-transparent hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             Contact Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/faq"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             FAQ's
           </a>
           <a
             href="https://www.networktigers.com/pages/newsletter"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-gray-900  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
           >
             Newsletter
           </a>
