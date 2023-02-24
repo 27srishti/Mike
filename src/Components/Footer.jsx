@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-60  ">
               <img src={Logo}></img>
             </div>
-            <p className="mx-auto md:font-semibold md:text-lg mt-6 max-w-md text-center leading-relaxed text-lime-600 sm:mx-0 sm:max-w-xs sm:text-left">
+            <p className="mx-auto md:font-semibold md:text-lg mt-6 max-w-md text-center leading-relaxed text-green sm:mx-0 sm:max-w-xs sm:text-left">
               1-800-430-6950
             </p>
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -18,7 +18,7 @@ const Footer = () => {
                   href="https://www.facebook.com/networktigers"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-lime-700 transition hover:text-lime-700/75"
+                  className="text-green transition hover:text-green/75"
                 >
                   <span className="sr-only">Facebook</span>
                   <svg
@@ -40,7 +40,7 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-lime-700 transition hover:text-lime-700/75"
+                  className="text-green transition hover:text-green/75"
                 >
                   <span className="sr-only">Instagram</span>
                   <svg
@@ -62,7 +62,7 @@ const Footer = () => {
                   href="https://twitter.com/networktigers"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-lime-700 transition hover:text-lime-700/75"
+                  className="text-green transition hover:text-green/75"
                 >
                   <span className="sr-only">Twitter</span>
                   <svg
@@ -80,7 +80,7 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-lime-700 transition hover:text-lime-700/75"
+                  className="text-green transition hover:text-green/75"
                 >
                   <span className="sr-only">GitHub</span>
                   <svg
@@ -102,7 +102,7 @@ const Footer = () => {
                   href="/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-lime-700 transition hover:text-lime-700/75"
+                  className="text-green transition hover:text-green/75"
                 >
                   <span className="sr-only">Dribbble</span>
                   <svg
@@ -123,12 +123,12 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-lime-600">About Us</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-green  text-green">About Us</p>
               <nav aria-label="Footer About Nav" className="mt-8">
                 <ul className="space-y-4  text-sm">
                   <li>
                     <a
-                      className="text-gray-700 hover:text-lime-600 transition hover:text-gray-700/75"
+                      className="text-gray-700 hover:text-green transition hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/about-us"
                     >
                       Our Team
@@ -136,7 +136,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/about-us"
                     >
                       Our Story
@@ -144,7 +144,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/contact-us"
                     >
                      Contact Us
@@ -155,12 +155,12 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium hover:font-semibold hover:text-lime-600  text-lime-600">Information</p>
+              <p className="text-lg font-medium hover:font-semibold hover:text-green  text-green">Information</p>
               <nav aria-label="Footer Services Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/terms-of-sale"
                     >
                       Terms Of Sale
@@ -169,7 +169,7 @@ const Footer = () => {
                  
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/terms-of-shipping"
                     >
                      Shipping Policy
@@ -177,7 +177,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/privacy-policy"
                     >
                       Privacy Policy
@@ -185,7 +185,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/terms-of-use"
                     >
                     Terms Of Use
@@ -194,7 +194,7 @@ const Footer = () => {
                   
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/ccpa-opt-out"
                     >
                       Do Not Sell Personal Information
@@ -204,12 +204,12 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-lime-600 hover:font-semibold hover:text-lime-600 ">Helpful Links</p>
+              <p className="text-lg font-medium text-green hover:font-semibold hover:text-green ">Helpful Links</p>
               <nav aria-label="Footer Helpful Nav" className="mt-8">
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/faq"
                     >
                       FAQs
@@ -217,7 +217,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/contact-us"
                     >
                       Support
@@ -225,7 +225,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="text-gray-700 transition hover:text-lime-600 hover:text-gray-700/75"
+                      className="text-gray-700 transition hover:text-green hover:text-gray-700/75"
                       href="https://www.networktigers.com/pages/cookie-policy"
                     >
                       Cookie Policy
@@ -233,15 +233,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      className="group flex justify-center hover:text-lime-600 gap-1.5 sm:justify-start"
+                      className="group flex justify-center hover:text-green gap-1.5 sm:justify-start"
                       href="https://www.networktigers.com/"
                     >
-                      <span className="text-gray-700 hover:text-lime-600 transition ">
+                      <span className="text-gray-700 hover:text-green transition ">
                         Live Chat
                       </span>
                       <span className="relative -mr-2 flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-lime-900 opacity-75" />
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-lime-500" />
+                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75" />
+                        <span className="relative inline-flex h-2 w-2 rounded-full bg-green" />
                       </span>
                     </a>
                   </li>
@@ -249,7 +249,7 @@ const Footer = () => {
               </nav>
             </div>
             <div className="text-center sm:text-left">
-              <p className="text-lg font-medium text-lime-600 hover:font-semibold hover:text-lime-600 ">Our Location</p>
+              <p className="text-lg font-medium text-green hover:font-semibold hover:text-green ">Our Location</p>
               <ul className="mt-8 space-y-4 text-sm">
                 
                 
@@ -257,7 +257,7 @@ const Footer = () => {
                 <li className="flex items-start justify-center gap-1.5 sm:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 shrink-0 text-lime-600"
+                    className="h-5 w-5 shrink-0 text-green"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -275,7 +275,7 @@ const Footer = () => {
                     />
                   </svg>
                   <a href="https://www.networktigers.com/pages/contact-us">
-                  <address className="-mt-0.5 hover:text-lime-600 not-italic text-gray-700">
+                  <address className="-mt-0.5 hover:text-green not-italic text-gray-700">
                     NetworkTigers, Inc 
                     <br/>
                     1029 S. Claremont St.
@@ -291,22 +291,22 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-400 pt-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <p  className="text-sm text-gray-500">
-              <span  className="block sm:inline hover:text-lime-600">All rights reserved.</span>
+              <span  className="block sm:inline hover:text-green">All rights reserved.</span>
               <a
-                className="inline-block text-lime-600 underline transition hover:text-lime-600/75"
+                className="inline-block text-green underline transition hover:text-green/75"
                 href="https://www.networktigers.com/pages/ccpa-opt-out"
               >
                 Terms &amp; Conditions
               </a>
               <span>·</span>
               <a
-                className="inline-block text-lime-600 underline transition hover:text-lime-600/75"
+                className="inline-block text-green underline transition hover:text-green/75"
                 href="https://www.networktigers.com/pages/privacy-policy"
               >
                 Privacy Policy
               </a>
             </p>
-            <p className="mt-4  hover:text-lime-600 text-sm text-gray-500 sm:order-first sm:mt-0  ">
+            <p className="mt-4  hover:text-green text-sm text-gray-500 sm:order-first sm:mt-0  ">
               © 2023 NetworkTigers, Inc. 
               <span className="  ">TM</span>
             </p>

@@ -6,7 +6,7 @@ const Navbar = () => {
     <section>
       <div className="  text-sm text-center  bg-gray-700 text-white justify-between flex grid-cols-2 mx-auto bg-opacity-90 h-7">
         <ui className="flex grid-cols-4 ">
-          <div className=" px-10 flex items-center bg-lime-600">Store</div>
+          <div className=" px-10 flex items-center bg-green">Store</div>
           <a
             href="https://www.networktigers.com/blogs/all-articles"
             className=" border-l flex items-center bg-gray-500 px-10"
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ui>
       </div>
       {/* -----------------------------------TopNav-End---------------------------------------------------------- */}
-      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-lime-600  w-full z-20  border-b border-gray-200 dark:border-gray-600">
+      <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-green  w-full z-20  border-b border-gray-200 dark:border-gray-600">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a
             href="https://www.networktigers.com/"
@@ -46,7 +46,7 @@ const Navbar = () => {
           <div className="flex md:order-2 mx-2 md:mx-0">
             <a
               href="https://www.networktigers.com/account/login"
-              class="relative rounded px-5 py-2.5 text-sm  overflow-hidden group bg-lime-600 relative hover:bg-gradient-to-r hover:from-lime-700 hover:to-lime-600 text-white hover:ring-2 hover:ring-offset-2 hover:ring-lime-400 transition-all ease-out duration-300"
+              class="relative rounded px-5 py-2.5 text-sm  overflow-hidden group bg-green relative hover:bg-gradient-to-r hover:from-green hover:to-green text-white hover:ring-2 hover:ring-offset-2 hover:ring-green transition-all ease-out duration-300"
             >
               <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
               <span class="relative">Log-In</span>
@@ -58,13 +58,13 @@ const Navbar = () => {
               ></img>
             </a>
           </div>
-          <div className=" md:w-full flex justify-between  h-[100%] hidden max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-[0.5px] border-lime-600 border-opacity-50 rounded-sm  xl:flex items-center">
+          <div className=" md:w-full flex justify-between  h-[100%] hidden max-w-xs  md:max-w-xl xl:max-w-3xl 2xl:max-w-5xl  border-[0.5px] border-green border-opacity-50 rounded-sm  xl:flex items-center">
             <input
               className=" border-none focus:ring-0 w-full border-none font-normal text-sm pl-6"
               type="text"
               placeholder="Find what you need..."
             />
-            <button className=" bg-lime-600 w-24 h-10  text-white ">
+            <button className=" bg-green w-24 h-10  text-white ">
               {" "}
               Search
             </button>
@@ -88,54 +88,54 @@ const Navbar = () => {
         </div>
       </nav>
       {/* -------------------------------------------MiddleNav-End---------------------------------------------- */}
-      <nav className="bg-lime-600 text-white text-xs sm:text-sm md:text-sm  lg:text-sm font-normal ">
+      <nav className="bg-green text-white text-xs sm:text-sm md:text-sm  lg:text-sm font-normal ">
         <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
           <a
             href="#"
-            className="border-b-2 border-transparent  hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent  hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             Home
           </a>
           <a
             href="https://www.networktigers.com/pages/all-products"
-            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             All Products
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-sale"
-            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             {" "}
             Terms Of sale
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-shipping"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             Shipping Policy
           </a>
           <a
             href="https://www.networktigers.com/pages/about-us"
-            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             About Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/contact-us"
-            className="border-b-2 border-transparent hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             Contact Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/faq"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             FAQ's
           </a>
           <a
             href="https://www.networktigers.com/pages/newsletter"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-lime-600  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
           >
             Newsletter
           </a>
