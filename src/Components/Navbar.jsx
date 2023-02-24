@@ -92,50 +92,50 @@ const Navbar = () => {
         <div className="container flex items-center text-center  justify-center py-5 mx-auto  capitalize ">
           <a
             href="#"
-            className="border-b-2 border-transparent  hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent   hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             Home
           </a>
           <a
             href="https://www.networktigers.com/pages/all-products"
-            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             All Products
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-sale"
-            className="border-b-2 hidden lg:flex lg:block border-transparent text-center hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 hidden lg:flex lg:block border-transparent text-center  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             {" "}
             Terms Of sale
           </a>
           <a
             href="https://www.networktigers.com/pages/terms-of-shipping"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             Shipping Policy
           </a>
           <a
             href="https://www.networktigers.com/pages/about-us"
-            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             About Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/contact-us"
-            className="border-b-2 border-transparent hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             Contact Us
           </a>{" "}
           <a
             href="https://www.networktigers.com/pages/faq"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             FAQ's
           </a>
           <a
             href="https://www.networktigers.com/pages/newsletter"
-            className="border-b-2 border-transparent hidden lg:flex lg:block hover:text-green  hover:border-white mx-3 sm:mx-6"
+            className="border-b-2 border-transparent hidden lg:flex lg:block  hover:text-gray-900  hover:border-gray-700 mx-3 sm:mx-6"
           >
             Newsletter
           </a>
