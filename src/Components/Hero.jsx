@@ -410,7 +410,7 @@ const Hero = () => {
             </div>
           </h1>
         </div>  
-        <div className=" grid items-end   ">
+        <div className=" grid items-end   flex place-items-center ">
           <div className=" text-center  w-screen  text-white absolute bg-gray-500 py-2 text-xs  ">
             
             
