@@ -407,19 +407,22 @@ const Hero = () => {
                   Explore More
                 </span>
               </a>
-              
             </div>
           </h1>
-          {/* <h1 className=" text-white   w-screen bg-gray-400 py-2 text-xs text-center ">
+        </div>  
+        <div className=" grid items-end   ">
+          <div className=" text-center  w-screen  text-white absolute bg-gray-500 py-2 text-xs  ">
+            
+            
             Since 1996, NetworkTigers has been providing quality to Netowrk
             Managers around the world.
-          </h1> */}
+          </div>
+          <img
+            className=" w-screen h-[25rem] md:h-screen"
+            src={images[currentIndex]}
+          />{" "}
         </div>
       </div>
-      <img
-        className=" w-screen h-[25rem] md:h-screen"
-        src={images[currentIndex]}
-      />
     </div>
   );
 };
