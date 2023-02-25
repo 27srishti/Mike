@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
-
 import One from "../Images/One.jpg";
 import Two from "../Images/Two.jpg";
 import Three from "../Images/Three.png";
 
 const images = [One, Two, Three];
 
+
+
 const Hero = () => {
+  // --------------------image change function ----------------------------
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -20,6 +22,7 @@ const Hero = () => {
 
     return () => clearInterval(intervalId);
   }, [currentIndex]);
+  // --------------------image change function end ----------------------------
   return (
     <div className="flex grid-cols-2  ">
       {/* ------------------sidebar------------------------------ */}
@@ -381,7 +384,7 @@ const Hero = () => {
       {/* --------------------------Hero Section------------------------------------------------------ */}
 
       <div className="slide  ">
-        <div className=" mt-[20%]  md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
+        <div className=" mt-[10%] sm:mt-14  md:mt-[10%] w-[90%] pl-[10%]  absolute my-auto mx-auto ">
           <div class="relative  flex md:w-[36rem] 2xl:w-[54rem]  items-center">
             <div class=" w-5 mt-1 md:w-10  2xl:w-32 border-t border-[3px] border-green"></div>
             <span class="flex-shrink px-2 text-md  font-light  mx-auto  text-white 2xl:text-4xl  md:text-2xl">
@@ -409,16 +412,15 @@ const Hero = () => {
               </a>
             </div>
           </h1>
-        </div>  
+        </div>
+        
         <div className=" grid items-end   flex place-items-center ">
           <div className=" text-center  w-screen  text-white absolute bg-gray-500 py-2 text-xs  ">
-            
-            
             Since 1996, NetworkTigers has been providing quality to Netowrk
             Managers around the world.
           </div>
           <img
-            className=" w-screen h-[25rem] md:h-screen"
+            className=" w-screen  h-[25rem] md:h-screen"
             src={images[currentIndex]}
           />{" "}
         </div>
